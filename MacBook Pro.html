@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MacBook Pro</title>
+    <style>
+      body {
+        background-color: rgba(250, 250, 250, 255);
+        margin: 0; /* Remove default body margin */
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+
+      .button-container {
+        text-align: center;
+      }
+
+      .centered-button {
+        background-color: rgba(20, 124, 229, 255);
+        color: white;
+        border-style: none;
+        border-radius: 30px;
+        padding: 14px 30px 14px 30px;
+        cursor: pointer;
+        font-size: 25px;
+      }
+
+      .centered-button:hover {
+        opacity: 0.9;
+      }
+      .centered-button:active {
+        background-color: rgba(0, 104, 209, 255);
+      }
+      .mac-pic-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .mac-pic {
+        width: 100%;
+        height: auto;
+      }
+      .learn-more {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        font-size: 22px;
+        padding: auto;
+        color: rgba(38, 92, 204, 255);
+        cursor: pointer;
+      }
+      .learn-more:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <p
+      style="
+        color: rgba(249, 161, 111, 255);
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 0;
+      "
+    >
+      New
+    </p>
+    <p
+      style="
+        color: black;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-bottom: 0;
+      "
+    >
+      MacBook Pro
+    </p>
+    <p
+      style="
+        color: black;
+        font-size: 70px;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-bottom: 0;
+      "
+    >
+      Supercharged for pros.
+    </p>
+    <p style="color: rgba(21, 21, 21, 255); font-size: 30px">from &#36;1999</p>
+
+    <!-- Wrap the button inside a div with the button-container class -->
+    <div class="button-container">
+      <button class="centered-button">Buy</button>
+      <a href="https://www.apple.com/macbook-pro-13/" target="_blank">
+        <span class="learn-more"> Learn more &gt;</span></a
+      >
+    </div>
+
+    <div class="mac-pic-container">
+      <img
+        class="mac-pic"
+        src="https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.slideshow-xlarge.jpg"
+        alt="Apple unveils game-changing MacBook Pro - Apple"
+      />
+    </div>
+  </body>
+</html>
