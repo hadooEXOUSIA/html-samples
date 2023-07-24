@@ -1,0 +1,54 @@
+.profile-stats{
+    display: inline-block;
+    width: 200px;
+    height: 360px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    background-color: rgba(231,231,231,255);
+}
+.profile-stats:hover{
+    opacity: 0.9;
+}
+
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.p{
+    font-family: 'Roboto';
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 5px 5px 5px;
+    padding: 10px 5px 5px 5px;
+    font-family: 'Roboto';
+}
+
+.friends-stats{
+    color: rgb(100, 100, 100);
+    margin: 0px 0px 12px 12px;
+    font-family: 'Roboto';
+}
+
+.add-friend{
+    background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding: 10px 20px 10px 20px ;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px 0px 10px 10px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.add-friend:hover{
+    opacity: 0.7;
+}
+.add-friend:active{
+    opacity: 0.9;
+}
