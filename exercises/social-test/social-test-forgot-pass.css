@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(179, 153, 204); 
+    padding: 5px;
+}
+div{
+font-family: Arial, Helvetica, sans-serif;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    row-gap: 10px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white ;
+   
+}
+.back-pointer{
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    color: black;
+   
+    
+}
+.login-text{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(40,46,79,255);
+    margin-bottom: 5px;
+}
+.signin-text{
+    color: rgba(100,100,100,255);
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.signup-landing,
+.pass-forgot{
+    text-decoration: underline;
+    font-size: 15px;
+    color: rgba(172,149,226,255);
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.signup-landing:hover,
+.pass-forgot:hover{
+    color: rebeccapurple;
+}
+
+.signup-landing:active,
+.pass-forgot:active{
+    color: rebeccapurple;
+    opacity: 0.8;
+}
+
+.email-text,.password-text{
+    color: rgba(65,65,65,255);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.email-input,.password-input{
+    width: auto;
+    height: 44px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(184, 182, 182);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    margin: 0px 0px 5px 0px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.email-input::placeholder,.password-input::placeholder{
+    font-size: 15px;
+    margin-left: 20px;
+    opacity: 0.7;
+}
+ .password-messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+} 
+
+.pass-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.remember-me{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.remember-me-text{
+    opacity: 0.5;
+    font-size: 15px;
+    margin-left: 2px;   
+}
+.checkbox-remember-me{
+   margin-left: 0px;
+}
+.login-button{
+    height: 50px;
+    background-color: rgba(137,61,255,255);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.15s;
+    font-size: 15px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.login-button:hover{
+    opacity: 0.7;
+}
+
+.login-button:active{
+    opacity: 0.9;
+}
+
+
