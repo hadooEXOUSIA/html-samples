@@ -1,0 +1,332 @@
+.header{
+    background-color: rgb(120, 82, 178);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    width: auto;
+    flex-direction: rows;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.home-link {
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .home-link:hover{
+    color: rgb(210, 201, 223);
+  }
+  .home-link:active{
+    color: rgb(171, 163, 184);
+  }
+.search-box{
+    width: 500px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+  .log-in{
+    background-color: rgb(120, 82, 178);
+    color: white;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+  }
+  .log-in:hover{
+    background-color: rgb(78, 47, 125);
+  }
+  .log-in:active{
+    opacity: 0.8;
+  }
+
+  /*  notifications  */
+  
+  div {
+    font-family: Arial;
+  }
+  
+  .container {
+    border-width: 1px;
+    max-height: 110px;
+    border-style: solid;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-color: rgb(200, 200, 200);
+    width: 430px;
+    border-radius: 6px;
+
+    
+  }
+  
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  .notifications {
+    background-color: rgb(49, 109, 245);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .notifications:hover{
+    opacity: 0.8;
+  }
+  .notifications:active{
+    opacity: 0.9;
+  }
+
+  /* follow */
+  .follower{
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    padding: 5px 5px 5px 5px;
+    min-width: 300px;
+    border-color: rgb(200, 200, 200);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    border-radius: 6px;
+    max-height: 320px;
+    
+  }
+  p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  
+  .profile-picture {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .profile-picture:hover{
+    opacity: 0.9;
+  }
+  
+  .info {
+    width: 200px;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  
+  .handle {
+    color: rgb(150, 150, 150);
+    margin-bottom: 5px;
+  }
+  
+  .category {
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+  }
+  
+  .follow-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .follow-button:hover{
+    opacity: 0.8;
+  }
+  .vertical-containment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  /* post */
+  .middle-feed{
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    padding: 5px 5px 5px 5px;
+    border-color: rgb(200, 200, 200);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    flex: 1;
+    max-width: 700px;
+    max-height: 700px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+        
+  }
+  .user-name{
+    width: 700px;
+    padding: 10px 5px 5px 5px ;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .profile-picture-top-post{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .user-info-top{
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    margin: 0;
+    border-color: rgb(200, 200, 200);
+    border-radius: 6px;
+    
+
+  }
+  .post-time{
+    font-size: 14px;
+    vertical-align: middle;
+    opacity: 0.8;
+  }
+  .more-info-top-post{
+    padding: 10px 5px 5px 5px;
+    width: 20px;
+    cursor: pointer;
+  }
+  .post-media{
+    object-fit: fill;
+    width: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  .post{
+    flex: 1;
+    max-width: 700px;
+    max-height: 700px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+ /* inbox */
+ .inbox-container {
+  padding: 10px 15px 10px 15px;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  
+}
+
+.inbox-label {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+  margin-bottom: 20px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.email:hover{
+  opacity: 0.8;
+}
+
+.sender-picture-container {
+  margin-right: 10px;
+}
+
+.sender-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.email-content {
+  flex: 1;
+}
+
+.email-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.sender-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.send-time {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
+.subject {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message {
+  color: rgb(120, 120, 120);
+}
+.right-hand-section{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
