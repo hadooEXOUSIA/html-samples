@@ -77,6 +77,28 @@
     column-gap: 50px;
     vertical-align: middle;
     margin-bottom: 20px;
-    
-   
 }
+
+@media (min-width: 1px) and (max-width: 991.98px) { 
+    .footer-info-row{
+        display: grid;
+        row-gap: 10px;
+        width: auto;
+        justify-items: center;
+        justify-content: space-between;
+        align-items: center;
+        align-self: auto;
+        grid-template-columns: 1fr 1fr;    
+    }
+    .footerw{
+        height: auto;
+        bottom: -1000px;
+    }
+    .footer-copyright-text{
+        width: auto;
+    }
+    .footer-column{
+        width: auto;
+        
+    }
+  }
