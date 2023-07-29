@@ -1,0 +1,137 @@
+body {
+    margin-top: 90px;
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 245, 245);
+ }
+ 
+  .product-container {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 3px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .product-container:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .product-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition:  .4s;
+    cursor: pointer;
+    
+  }
+  .product-image:hover{
+    transform: scale(1.03); 
+    border-radius: 1px;
+    object-fit: cover;
+  }
+  .product-image:active{
+    opacity: 0.85;
+  }
+  
+  .promotion {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 12px 8px 12px;
+  }
+  .bottom-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .add-to-cart-button {
+    background-color: rgba(239, 237, 237, 0.666);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding-inline-start: 10px 15px 10px 15px;
+    z-index: 150;
+    height: 40%;
+    width: 30%;
+    border-radius: 2px;
+    transition:  .1s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.25s;
+  }
+  .add-to-cart-button:hover{
+    transform: scale(1.2);
+    
+  }
+  .add-to-cart-button:active{
+    opacity: 0.45;
+  }
+
+
+  .merch-area-container{
+    display: grid;
+    row-gap: 10px;
+    column-gap: 15px;
+    width: auto;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    align-self: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: auto;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+ 
+   @media (min-width: 0px) and (max-width: 767.98px) { 
+    .merch-area-container{
+      grid-template-columns: 1fr;
+      }
+   }
+
+   @media (min-width: 768px) and (max-width: 991.98px) { 
+    .merch-area-container{
+      grid-template-columns: 1fr 1fr;
+      }
+   }
+
+   @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .merch-area-container{
+      grid-template-columns: 1fr 1fr 1fr;
+      }
+   }
+
+   @media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .merch-area-container{
+      grid-template-columns: 1fr 1fr 1fr;
+      }
+   }
+
+   @media (min-width: 1360px) {
+    .merch-area-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+     
+    }
+  } 
