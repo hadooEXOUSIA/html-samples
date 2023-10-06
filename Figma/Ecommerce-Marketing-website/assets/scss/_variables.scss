@@ -1,0 +1,39 @@
+$primary-color: #D27722;
+$primary-lighten: #FFDBB8;
+$text-color: #252422;
+$text-color-secondary: #403D39;
+$secondary-background: #FFFDF4;
+
+
+@mixin flex-boxing-std{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin transition-std{
+    transition: 0.2s ease-in-out;
+    
+}
+@mixin hover-std{
+    transform: scale(1.05);
+}
+button, li{
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    
+}
+button:hover, li:hover{
+    transform: scale(1.05);
+
+}
+button:active{
+    opacity: 0.5;
+}
+p, h1{
+    margin: 0;
+}
+html{
+    max-width: 1920px;
+    margin: 0px auto;
+}
